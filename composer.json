@@ -1,0 +1,23 @@
+{
+    "name": "lab-informatika/demo-package",
+    "description": "Laravel demo package",
+    "authors": [
+        {
+            "name": "Alfa Adhitya",
+            "email": "alfa2159@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "LabInformatika\\DemoPackage\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "LabInformatika\\DemoPackage\\Providers\\DemoPackageServiceProvider"
+            ]
+        }
+    }
+}
